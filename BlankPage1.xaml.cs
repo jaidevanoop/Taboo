@@ -25,6 +25,7 @@ namespace App1
         public BlankPage1()
         {
             this.InitializeComponent();
+            Windows.Phone.UI.Input.HardwareButtons.BackPressed += HardwareButtons_BackPressed;
         }
 
         /// <summary>
@@ -34,6 +35,23 @@ namespace App1
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+        }
+        
+        private void HardwareButtons_BackPressed(object sender, Windows.Phone.UI.Input.BackPressedEventArgs e)
+        {
+            Frame rootFrame = Window.Current.Content as Frame;
+            if (rootFrame != null && rootFrame.CanGoBack)
+            {
+                e.Handled = true;
+                rootFrame.GoBack();
+            }
+
+        }
+        
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            TextBlock tb5 = new TextBlock();
+            tb5.Text = "Success";
         }
     }
 }
