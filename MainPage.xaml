@@ -10,14 +10,15 @@ Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <Grid>
         <TextBlock HorizontalAlignment="Center" FontSize="60" Margin="0,58,0,0" TextWrapping="Wrap" Text="Taboo" VerticalAlignment="Top" Width="400" TextAlignment="Center"/>
         <TextBlock HorizontalAlignment="Center" FontSize="20" Margin="10,163,10,0" TextWrapping="Wrap" Text="Race against time and friends" VerticalAlignment="Top" TextAlignment="Center" Width="380" FontStyle="Italic" RenderTransformOrigin="0.152,0.434"/>
-        <ListBox x:Name="lb" Background="Black"  Foreground="White" AllowDrop="True" BorderBrush="AntiqueWhite" Height="64" Margin="70,246,63,0" VerticalAlignment="Top">
+        <ListBox x:Name="lb" Background="Black"  Foreground="White" AllowDrop="True" BorderBrush="AntiqueWhite" Height="64" Margin="70,246,63,0" VerticalAlignment="Top" >
             <x:String>1</x:String>
             <x:String>2</x:String>
             <x:String>3</x:String>
             <x:String>4</x:String>
             <x:String>5</x:String>
         </ListBox>
-        <Button Content="PLAY" HorizontalAlignment="Center" Margin="146,369,145,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <Button Content="HELP" HorizontalAlignment="Center" Margin="146,432,145,0" VerticalAlignment="Top" />
+        <Button Name="Play" Content="PLAY" HorizontalAlignment="Center" Margin="146,369,145,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="HELP" HorizontalAlignment="Center" Margin="146,432,145,0" VerticalAlignment="Top" Click="Button_Click_1" />
     </Grid>
+    
 </Page>
