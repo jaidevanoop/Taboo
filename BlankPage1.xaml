@@ -1,0 +1,22 @@
+<Page
+    x:Class="App1.BlankPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" TextAlignment="Center" FontSize="60" Margin="0,80,0,0" TextWrapping="Wrap" Text="Word" VerticalAlignment="Top" Width="400"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,192,0,0" FontSize="30" TextWrapping="Wrap" Text="Word1" VerticalAlignment="Top" TextAlignment="Center" Width="400"/>
+        <TextBlock HorizontalAlignment="Center" Margin="10,256,10,0" FontSize="30" TextWrapping="Wrap" Text="Word2" VerticalAlignment="Top" TextAlignment="Center" Width="380"/>
+        <TextBlock HorizontalAlignment="Center" Margin="10,327,10,0" FontSize="30" TextWrapping="Wrap" Text="Word3" VerticalAlignment="Top" TextAlignment="Center" Width="380"/>
+        <TextBlock HorizontalAlignment="Center" Margin="10,388,10,0" FontSize="30" TextWrapping="Wrap" Text="Word4" VerticalAlignment="Top" TextAlignment="Center" Width="380"/>
+        <Button Content="HIT" HorizontalAlignment="Left" Margin="251,485,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.789,0.546"/>
+        <Button Content="SKIP" HorizontalAlignment="Left" Margin="37,485,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" FontSize="20" Margin="37,594,0,0" TextWrapping="Wrap" Text="Score:-" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
