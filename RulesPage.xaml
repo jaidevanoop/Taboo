@@ -1,0 +1,15 @@
+<Page
+x:Class="Taboo.RulesPage"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+xmlns:local="using:Taboo"
+xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+mc:Ignorable="d"
+Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="10,72,10,0" TextWrapping="Wrap" Text="RULES" FontSize="60" TextAlignment="Center" VerticalAlignment="Top" Width="380"/>
+        <TextBlock Name="Rule" HorizontalAlignment="Center" FontSize="30" Margin="10,215,10,0" TextWrapping="Wrap" Text="The objective of the game is for a player to have their partners guess the word on the player's card without using the word itself or four additional words listed on the card." TextAlignment="Center" VerticalAlignment="Top" Width="380" Height="254"/>
+        <Button Name="Btn1" Content="Next" HorizontalAlignment="Left" Margin="148,515,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+    </Grid>
+</Page>
